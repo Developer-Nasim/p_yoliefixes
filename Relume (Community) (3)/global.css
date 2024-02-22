@@ -124,13 +124,37 @@ body {
   --br-45xl: 64px;
   --br-481xl: 500px;
 }
+input,select,textarea{
+  outline: none;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  filter: grayscale(1);
+}
+textarea::placeholder, textarea {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  background-image: url(./public/icon--chevrondown1.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: calc(100% - 15px);
+  background-position-y: center;
+} 
 .all_more_items {
   display: none !important;
 }
 .all_more_items.show_menu{
   display: flex !important;
 }
-
 header > div {
   width: unset !important;
 }
