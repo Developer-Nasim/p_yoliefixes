@@ -2107,10 +2107,12 @@
   border: 1px solid var(--color-slateblue);
   box-sizing: border-box;
   flex-direction: row;
-  padding: var(--padding-xs) var(--padding-smi) var(--padding-xs)
-    var(--padding-2xs);
+  padding: 15px;
   gap: var(--gap-base);
   color: var(--color-slateblue);
+  height: 50px;
+  outline: none;
+  font-size: 16px;
 }
 .input40 {
   flex-direction: column;
@@ -2348,6 +2350,7 @@
   position: relative;
   min-height: 180px;
   color: var(--color-neutral-neutral);
+  font-size: 16px;
 }
 .input41 {
   align-items: flex-start;

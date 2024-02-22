@@ -124,6 +124,13 @@ body {
   --br-45xl: 64px;
   --br-481xl: 500px;
 }
+input,select,textarea{
+  outline: none;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  filter: grayscale(1);
+}
 .all_more_items {
   display: none !important;
 }
@@ -193,7 +200,14 @@ header > div > div > div{
   height: auto !important;
   width: 110px !important;
 }
-
+.social-links26 > div img,
+.social-links59 > div img,
+.social-links59 > div img,
+.social-links59 > div img,
+.social-links59 > div img{
+  min-height: auto;
+  height: auto;
+}
 
 
 @media screen and (max-width:1325px) {

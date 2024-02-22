@@ -2537,6 +2537,7 @@
   position: relative;
   min-height: 180px;
   color: var(--color-neutral-neutral);
+  font-size: 17px;
 }
 .input50 {
   align-items: flex-start;

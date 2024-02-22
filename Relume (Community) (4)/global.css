@@ -124,6 +124,14 @@ body {
   --br-45xl: 64px;
   --br-481xl: 500px;
 }
+input,select,textarea{
+  outline: none;
+}
+input[type="radio"],
+input[type="checkbox"],
+select{
+  filter: grayscale(1);
+}
 .all_more_items {
   display: none !important;
 }

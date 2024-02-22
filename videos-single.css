@@ -8294,7 +8294,7 @@
 .content1917 {
   align-self: stretch;
   background-color: var(--background-color-secondary);
-  border-bottom: 1px solid var(--link-primary);
+  border-bottom: 1px solid var(--background-color-secondary);
   justify-content: space-between;
   padding: var(--padding-base) var(--padding-45xl);
   gap: var(--gap-xl);

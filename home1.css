@@ -5544,7 +5544,7 @@
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
-  min-width: 400px;
+  max-width: 500px;
 }
 .header-15 {
   align-self: stretch;
@@ -6771,6 +6771,10 @@
   max-width: calc(100% - 121px);
   flex-shrink: 0;
   white-space: nowrap;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
 .button826 {
   position: relative;
@@ -7410,6 +7414,10 @@
   max-width: calc(100% - 137px);
   flex-shrink: 0;
   white-space: nowrap;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
 .button828 {
   position: relative;
