@@ -958,12 +958,10 @@
   flex: 1;
   overflow: hidden;
   align-items: flex-start;
-  justify-content: space-between;
-  min-width: 323px;
+  justify-content: space-between; 
   gap: var(--gap-xl);
 }
-.content1073 {
-  width: 584px;
+.content1073 { 
   align-items: center;
   justify-content: flex-start;
   padding: var(--padding-xl) 0;
