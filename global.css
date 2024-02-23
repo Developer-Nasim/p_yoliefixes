@@ -235,6 +235,8 @@ button.showMenuForMobile {
   border: none;
   cursor: pointer;
   display: none;
+  margin-left: -11px;
+  margin-top: 3px;
 }
 
 @media screen and (max-width:1325px) {
@@ -279,8 +281,8 @@ button.showMenuForMobile {
     margin: 5px 0;
   }
   .all_more_items {
-    margin-top: 150px;
-    max-height: 78vh;
+    margin-top: 180px;
+    max-height: 500px;
     overflow: auto;
   }
   body:not(.show_menu ) .all_more_items{
