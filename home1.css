@@ -8291,6 +8291,7 @@
     line-height: 40px;
   }
   .header-15 {
+    padding: var(--padding-13xl);
     padding-top: var(--padding-28xl);
     padding-bottom: var(--padding-28xl);
     box-sizing: border-box;
