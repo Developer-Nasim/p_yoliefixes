@@ -228,7 +228,14 @@ header > div > div > div{
   min-height: auto;
   height: auto;
 }
-
+button.showMenuForMobile {
+  padding: 0; 
+  filter: invert(1);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
 
 @media screen and (max-width:1325px) {
   footer > div:first-child > div:first-child,
@@ -245,6 +252,45 @@ header > div > div > div{
   }
 
 }
+@media screen and (max-width:850px) {
+  button.showMenuForMobile { 
+    display: flex; 
+  }
+  header > div{
+    gap:0 !important;
+    position: relative;
+  }
+  .show_menu{
+    overflow: hidden;
+  }
+  .show_menu header .headMemu{
+    display: block !important;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    padding: 15px var(--padding-13xl);
+    padding-left: 32px;
+    color: #000;
+  }
+  header .headMemu > div {
+    margin: 5px 0;
+  }
+  .all_more_items {
+    margin-top: 150px;
+    max-height: 78vh;
+    overflow: auto;
+  }
+  body:not(.show_menu ) .all_more_items{
+    display: none !important;
+  }
+
+
+}
+
+
 
 @media screen and (max-width:800px) {
   footer > div > div > div {

@@ -5490,7 +5490,7 @@
   box-sizing: border-box;
 }
 .styleprimary-smallfalse-da87:hover > div{
-  color: #fff !important;
+  color: #000 !important;
 }
 .button819 {
   position: relative;
@@ -7891,6 +7891,13 @@
   letter-spacing: normal;
   color: var(--link-primary);
 }
+.row216 > div > img,.content2866 img,.content2867 img{
+  border-radius: 13px;
+}
+
+
+
+
 @media screen and (max-width: 1500px) {
   .content2869 {
     flex: 1;
