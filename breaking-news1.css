@@ -1869,11 +1869,8 @@
 }
 .button766 {
   cursor: pointer;
-  border: 1px solid var(--color-slateblue);
-  padding: var(--padding-5xs) var(--padding-smi);
   background-color: transparent;
   flex: 1;
-  border-radius: 7px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -1882,11 +1879,24 @@
   min-width: 58px;
   white-space: nowrap;
 }
-.button766:hover {
+.categories8 > button,
+.categories8 > div{
+  border: 1px solid transparent;
+  padding: var(--padding-5xs) var(--padding-smi);
+  border-radius: 7px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.categories8 .filter_activeBtn {
+  border: 1px solid var(--color-slateblue);
+}
+.categories8 .filter_activeBtn:hover {
   background-color: var(--color-mediumslateblue-100);
   border: 1px solid var(--color-mediumslateblue);
   box-sizing: border-box;
 }
+
 .text-one4 {
   position: relative;
   line-height: 150%;
@@ -6622,6 +6632,14 @@
   letter-spacing: normal;
   color: var(--link-primary);
 }
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1325px) {
   .blog-32 {
     padding-top: var(--padding-54xl);

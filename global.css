@@ -250,6 +250,36 @@ button.showMenuForMobile {
   margin-top: 3px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion4 p {
+  margin-top: -20px;
+  font-size: 15px;
+  display: none;
+}
+.accordion4 .show_contents p{
+  display: block;
+} 
+.accordion4 > div > div:nth-child(2){
+  cursor: pointer;
+}
+
+
+
+
+
+
 @media screen and (max-width:1325px) {
   footer > div:first-child > div:first-child,
   .newsletter50,
@@ -267,7 +297,6 @@ button.showMenuForMobile {
 }
 
 
-
 @media screen and (max-width:800px) {
   footer > div > div > div {
     flex-wrap: wrap;
@@ -281,6 +310,8 @@ button.showMenuForMobile {
       max-width: 100%;
   }
 }
+
+
 @media screen and (max-width:850px) {
   section.navbar-732 .content1072 .content1073 {
     gap: 0;

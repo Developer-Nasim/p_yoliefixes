@@ -1957,21 +1957,43 @@
 }
 .button436 {
   cursor: pointer;
-  border: 1px solid var(--color-slateblue);
+  /* border: 1px solid var(--color-slateblue); */
   padding: var(--padding-5xs) var(--padding-smi);
   background-color: transparent;
   width: 88px;
-  border-radius: var(--br-10xs);
+  /* border-radius: var(--br-10xs); */
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.button436:hover {
+/* .button436:hover {
   background-color: var(--color-mediumslateblue-100);
   border: 1px solid var(--color-mediumslateblue);
+} */
+
+.categories4 > button,
+.categories4 > div{
+  border: 1px solid transparent;
+  padding: var(--padding-5xs) var(--padding-smi);
+  border-radius: 7px;
+  transition: .3s;
+  cursor: pointer;
 }
+
+.categories4 .filter_activeBtn {
+  border: 1px solid var(--color-slateblue);
+}
+.categories4 .filter_activeBtn:hover {
+  background-color: var(--color-mediumslateblue-100);
+  border: 1px solid var(--color-mediumslateblue);
+  box-sizing: border-box;
+}
+
+
+
+
 .category-one {
   position: relative;
   line-height: 150%;
